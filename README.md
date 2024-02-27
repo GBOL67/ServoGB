@@ -32,3 +32,23 @@ read(): This method returns the current angle of the servo motor in degrees.
 int currentAngle = myservo.read();
 Serial.println(currentAngle); // Prints the current angle of the servo
 ```
+
+## CONCLUSION (How to Use the Library):
+
+Here's a detailed step-by-step guide on how to install the ServoGB library for Arduino, starting from downloading the files from GitHub:
+Download the Library from GitHub:
+
+### 1.Download the Library from GitHub:
+Select "Download ZIP" to download the entire library as a compressed file onto your computer. 
+
+### 2.Locate Arduino Libraries Folder: 
+Open the Arduino IDE (Integrated Development Environment) on your computer.
+Navigate to the Sketch menu and select "Include Library" > "Manage Libraries...".
+This will open the Library Manager window.
+
+### 3.Add the Library to Arduino IDE:
+In the Library Manager window, click on the "Add .ZIP Library..." button.
+Browse to the location where you extracted the ServoGB library files and select the folder containing the library.
+Click "Choose" or "Open" to add the library to the Arduino IDE.
+
+
